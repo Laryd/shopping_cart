@@ -2,19 +2,19 @@
   {
     "id": 6,
     "name": "GamePad",
-    "Price": 15,
+    "price": 15,
     "imgUrl": "/imgs/gamepad.jpg"
   },
   {
     "id": 7,
     "name": "Guitar",
-    "Price": 120,
+    "price": 120,
     "imgUrl": "/imgs/guitar.jpg"
   },
   {
     "id": 1,
     "name": "Microphone",
-    "Price": 25,
+    "price": 25,
     "imgUrl": "/imgs/microphone.jpg"
   },
   {
@@ -44,7 +44,7 @@
   {
     "id": 5,
     "name": "Speaker",
-    "Price": 25.5,
+    "price": 25.5,
     "imgUrl": "/imgs/speaker.jpg"
   }
 ]
