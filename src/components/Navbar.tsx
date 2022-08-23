@@ -8,11 +8,11 @@ function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart();
   return (
     <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+      <Nav.Link className="navbar-brand" to="/" as={NavLink}>
+        <span className="text-secondary">Gossipert Shop</span>
+      </Nav.Link>
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
-            Home
-          </Nav.Link>
           <Nav.Link to="/store" as={NavLink}>
             Store
           </Nav.Link>
